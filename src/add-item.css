@@ -1,0 +1,30 @@
+.form-add-item {
+    max-width: 600px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 15px;
+}
+
+.form-add-item input[type="text"] {
+    padding: 12px;
+    background: #2e2e2e;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.925rem;
+    color: #fff;
+}
+
+.form-add-item button {
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.125rem;
+    background: linear-gradient(90deg, rgba(124,0,255,1) 0%, rgba(227,123,255,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}

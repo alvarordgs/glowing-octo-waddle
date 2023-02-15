@@ -1,0 +1,25 @@
+.item {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 10px;
+}
+
+.item input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+
+.item label {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.item svg {
+    justify-self: end;
+    color: #e1e1e1;
+    cursor: pointer;
+}
